@@ -80,19 +80,13 @@ booleanoMix2 === variableValorNumerico > 0 || variableValorNumerico < -(MiNumero
 
 
 // Operadores
-let valorSuma = undefined
-valorSuma = MiNumeroFav + variableValorNumerico
+const valorSuma = MiNumeroFav + variableValorNumerico
 
-let valorResta = undefined
-valorResta = MiNumeroFav - variableValorNumerico
+const valorResta = MiNumeroFav - variableValorNumerico
 
-let valorMultiplicación = MiNumeroFav * variableValorNumerico
-// console.log(valorMultiplicación)
-// console.log(MiNumeroFav)
-// console.log(variableValorNumerico)
+const valorMultiplicacion = MiNumeroFav * variableValorNumerico
 
-
-let valorDivisión = MiNumeroFav / 3
+const valorDivision = MiNumeroFav / 3
 
 
 //Bucles
