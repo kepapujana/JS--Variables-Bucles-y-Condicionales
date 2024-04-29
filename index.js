@@ -33,9 +33,9 @@ for (let contarHasta10_2 = 0; contarHasta10_2 <= 10; contarHasta10_2++) {
 //bucles
 //10
 let contarHasta10_2 = 0
-for (let i = 0; contarHasta10_2 !== 10; i++) {
+for (let i = 0; contarHasta10_2!==10 ; i++) {
     contarHasta10_2++
-
+    // console.log (contarHasta10_2)
 }
 
 //11
@@ -43,14 +43,14 @@ let postI = 0;
 let postJ = 0;
 for (let i = 0; i < 11; i++) {
     postI = postI + postJ++
+    // console.log(postI);
 }
-console.log(postI);
 
 //12
 let sumaPares = 0;
 for (let i = 0; i < 10; i++) {
     if (i % 2 === 0) {
-        sumaPares += i;
+        sumaPares+=i;
     }
 }
 
@@ -99,7 +99,7 @@ let valorDivisión = MiNumeroFav / 3
 //24
 let contarHasta10 = 0
 while (contarHasta10 !== 10) { 
-    ++contarHasta10 
+    contarHasta10++
     }
 
 //25
@@ -114,6 +114,6 @@ for (let i = 0; i < 11; i++) {
 let sumaImpares = 0;
 for (let i = 0; i < 10; i++) {
     if (i % 2 !== 0) {
-        sumaImpares += i;
+        sumaImpares +=i;
     }
 }
